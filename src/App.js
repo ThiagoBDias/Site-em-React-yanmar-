@@ -1,12 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import PaginaInicial from './components/PaginaInicial';
 
 function App() {
-  
+
   return (
-    <div className="App">
-      <h1>ola mundo </h1>
-    </div>
+    <PaginaInicial/>
   );
 }
 
